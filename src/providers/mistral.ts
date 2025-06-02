@@ -29,6 +29,6 @@ export class MistralProvider extends OpenAIProvider implements IProvider {
 
   matchesModel(model: string): boolean {
     // TODO: better match
-    return model.startsWith("tral-")
+    return model.startsWith("mistral-")
   }
 }
